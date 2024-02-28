@@ -13,6 +13,8 @@ const About = () => {
     show: { opacity: 1, y: 0, transition: { duration: 2 } }, // Increase duration to slow down
   };
   return (
+
+    
     <section className="mx-auto" id="about" ref={Ref}>
       <div className="container relative md:pt-10 lg:mt-20 lg:pt-1 mx-auto ">
         <div className="md:flex  gap-28">
