@@ -13,16 +13,16 @@ const About = () => {
     show: { opacity: 1, y: 0, transition: { duration: 2 } }, // Increase duration to slow down
   };
   return (
-    <section className="pt-20" id="about" ref={Ref}>
-      <div className="container mx-auto  ">
-        <div className="flex sm:flex-col lg:flex-row gap-28">
+    <section className="mx-auto" id="about" ref={Ref}>
+      <div className="container relative md:pt-10 lg:mt-20 lg:pt-1 mx-auto ">
+        <div className="md:flex  gap-28">
           <motion.img
             variants={variants}
             initial="hidden"
             whileInView={"show"}
             src={img}
             alt=""
-            className="lg flex sm:h-[400px] sm:mt-10 lg:-mt-[100px]  lg:h-[500px] object-contain"
+            className="flex sm:mt-10 sm:h-[200px  max-w-[50%]   lg:h-[500px] object-contain"
           />
           <div className="flex items-center justify-center  lg:block">
             <motion.div
@@ -30,7 +30,7 @@ const About = () => {
               initial={{ opacity: 0, y: 70 }}
               whileInView={"show"}
             >
-              <div className="flex-1">
+              <div className="flex-1 mt-10">
                 <h1 className="mb-6  lg:text-[40px] h-font font-secondary text-[35px] font-semibold leading-[1] text-green-500">
                   About Me.
                 </h1>

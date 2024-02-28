@@ -29,14 +29,14 @@ const Service = () => {
     show: { opacity: 1, x: 0, transition: { duration: 1.5 } }, // Increase duration to slow down
   };
   return (
-    <section className="section pt-10 lg:mt-24" id="service">
-      <div className="container h-font  mx-auto lg:h-full">
+    <section className="section pt-10  pb-10 lg:mt-24" id="service">
+      <div className="container   mx-auto lg:h-full">
         <div className="flex flex-col gap-20 lg:flex-row ">
           <motion.div
             variants={variants}
             initial={{ opacity: 0, x: -70 }}
             whileInView={"show"}
-            className="flex-1 service mix-blend-lighten  lg:bg-right"
+            className="flex-1 service mix-blend-lighten sm:pt-10 lg:bg-right"
           >
             <h2 className="text-[35px] font-semibold leading-[1] text-green-500 mb-16 pt-1">
               {" "}

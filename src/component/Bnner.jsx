@@ -20,10 +20,10 @@ const Bnner = () => {
   return (
     <div id='home'>
       <Header />
-      <section className='min-h-[100vh] lg:min-h-[78vh] flex items-center mb-20' >
+      <section className=' lg:min-h-[78vh] flex justify-center items-center md:mb-20' >
         <div className='container h-font mx-auto'>
           <div className='flex flex-col gap-10 lg:flex-row justify-center lg:items-center'>
-            <div className='flex-1 text-center lg:text-left max-w-3xl  '>
+            <div className='flex-1  text-center lg:text-left max-w-3xl  '>
               <motion.h1
                 variants={variants}
                 initial='hidden'
