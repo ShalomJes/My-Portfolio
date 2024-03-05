@@ -41,7 +41,7 @@ const Bnner = () => {
                 <TypeAnimation sequence={[
                   'DEVELOPER',
                   , 2000,
-                  'JUNIOR WEB DESIGNER',
+                  'UI/UX DESIGNER',
                   2000,
                   'CUSTOMER SERVICE AGENT ',
                   2000,
@@ -67,7 +67,7 @@ const Bnner = () => {
 
                 className='flex max-w-max  gap-6 items-center mb-12 mx-auto lg:mx-0'>
                 <a href='#contact' className='all-btn text-center'> Contct Me </a>
-                <a href='#work' className='text-gradient text-[1.3rem]'>My Resume</a>
+                <a href='https://drive.google.com/file/d/1_tr2jkEjUlzCpu4SURe19xe9f6XacSBb/view?usp=drive_link' target='_blank' className='text-gradient text-[1.3rem]'>My Resume</a>
               </motion.div>
               <motion.div
                 variants={variants}
