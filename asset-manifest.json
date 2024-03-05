@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.200fb933.css",
+    "main.js": "/My-Portfolio/static/js/main.0ea83ae6.js",
+    "static/js/453.acca0757.chunk.js": "/My-Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/imgabout1.jpg": "/My-Portfolio/static/media/imgabout1.5d71d261c79e694157be.jpg",
+    "static/media/imge1.png": "/My-Portfolio/static/media/imge1.ae9d25b8ad600744d6c6.png",
+    "static/media/menuhome.png": "/My-Portfolio/static/media/menuhome.2bb6feb3eb66bba5cee4.png",
+    "static/media/snopshot.png": "/My-Portfolio/static/media/snopshot.5ba05130faa85bc81984.png",
+    "static/media/tiktok3.png": "/My-Portfolio/static/media/tiktok3.8f866511499e84f8171a.png",
+    "static/media/tiktok1.png": "/My-Portfolio/static/media/tiktok1.d13da616b3f16d3c13ae.png",
+    "static/media/tiktok4.png": "/My-Portfolio/static/media/tiktok4.005230ee3be85168fb94.png",
+    "static/media/menu.png": "/My-Portfolio/static/media/menu.cf9ebd2e3167c2a35538.png",
+    "static/media/tiktok2.png": "/My-Portfolio/static/media/tiktok2.2567a01672628c61583a.png",
+    "static/media/E-comerce1.png": "/My-Portfolio/static/media/E-comerce1.17c5e0fa9c50806ba4d8.png",
+    "static/media/Adventure.png": "/My-Portfolio/static/media/Adventure.bcadfcfe5079b79add87.png",
+    "static/media/Screenshot (1).png": "/My-Portfolio/static/media/Screenshot (1).e5cf52e8a2cfd7c7fdb8.png",
+    "static/media/game.png": "/My-Portfolio/static/media/game.d7757bd917b9f642b1ae.png",
+    "static/media/onlaptop.png": "/My-Portfolio/static/media/onlaptop.53af733ae0ba6ccf721e.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.200fb933.css.map": "/My-Portfolio/static/css/main.200fb933.css.map",
+    "main.0ea83ae6.js.map": "/My-Portfolio/static/js/main.0ea83ae6.js.map",
+    "453.acca0757.chunk.js.map": "/My-Portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.200fb933.css",
+    "static/js/main.0ea83ae6.js"
+  ]
+}
