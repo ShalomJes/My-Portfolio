@@ -1,19 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './component/Header';
-import Bnner from './component/Bnner';
-import Nav from './component/Nav';
-import About from './component/About';
-import Work from './component/Work';
-import Contact from './component/Contact';
-import Service from './component/Service';
-// import { Link } from 'react-scroll';
+import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Getter from "./component/Getter"
 import DetailSrvice from './component/DetailSrvice';
 import Main from './component/Main';
 
-// import ''
 function App() {
   return (
     <>
