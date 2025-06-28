@@ -78,7 +78,41 @@ const Work = () => {
                        transition-all duration-700 z-50"
               >
                 <span className="text-xl text-white">
-                  Explore a lively shopping landing page, with featuring animation with React and Tailwind
+                  Explore a lively shopping landing page, with featuring
+                  animation with React and Tailwind
+                </span>
+              </div>
+            </div>
+             <div className="group relative w-[400px] overflow-hidden border-2 border-white/60 rounded-xl ">
+              <div className="group-hover:bg-black/75 w-full h-full absolute z-40 transition-all duration-300 "></div>
+              <img
+                src={Image5}
+                alt="image from shoping project "
+                className=" w-full object-fill h-[250px] group-hover:scale-125 transition-all duration-500"
+              />
+
+              <div
+                className=" h-font absolute -bottom-full left-12 group-hover:bottom-48
+                         transition-all duration-500 z-50"
+              >
+                <a
+                  href="https://shalselam.github.io/Adventure-Ethiopia/"
+                  target="_blank"
+                >
+                  <span className="text-gradient flex items-center  gap-2 text-[2rem] ">
+                    E-Finanace
+                    <FaGithub color="white " />
+                  </span>
+                </a>
+              </div>
+
+              <div
+                className=" h-font absolute -bottom-full left-12 group-hover:bottom-24
+                       transition-all duration-700 z-50"
+              >
+                <span className="text-xl text-white">
+                  Experience the transformation of a Figma design into a fully
+                  functional web page.{" "}
                 </span>
               </div>
             </div>
@@ -110,8 +144,9 @@ const Work = () => {
                        transition-all duration-700 z-50"
               >
                 <span className="text-xl text-white">
-                Experience the transformation of a Figma design into a fully
-                  functional web page.              </span>
+                  Experience the transformation of a Figma design into a fully
+                  functional web page.{" "}
+                </span>
               </div>
             </div>
 
@@ -177,7 +212,8 @@ const Work = () => {
                        transition-all duration-700 z-50"
               >
                 <span className="text-xl text-white">
-                  A landing page for Hotels menu, events, table reservations and all hotels info.
+                  A landing page for Hotels menu, events, table reservations and
+                  all hotels info.
                 </span>
               </div>
             </div>

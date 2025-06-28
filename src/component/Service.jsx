@@ -7,21 +7,30 @@ import { Link } from "react-router-dom";
 
 const services = [
   {
-    name: "Developement",
+    name: "Front-End Web Development",
     description:
-      "As a Front-end web developer, I use HTML, CSS, JavaScript, and React and Angular to build engaging websites and apps. With a focus on user experience, I create visually appealing designs and interactive features, ensuring efficiency and scalability with React.",
+      "Building clean, modern, and responsive web interfaces using React.js, JavaScript, and Tailwind CSS.",
   },
 
   {
-    name: "UI/UX Design",
+    name: "UI Development from Design to Code",
     description:
-      " Using Figma, I design user-friendly digital interfaces and prototypes. I create layouts and mockups focusing on simplicity and functionality. While still learning, I aim to make designs that enhance user satisfaction and engagement.",
+      "Convert Figma, Adobe XD, or any web designs into clean, responsive, and user-friendly web interfaces using React.js, Tailwind CSS and  UI Component Librarys like Chakra UI ShadCn UI, and JavaScript",
   },
   {
-    name: "Costomer service",
+    name: "API Integration",
     description:
-      "I blend technical knowledge with a customer-friendly approach. My goal is to provide top-notch support and create valuable content that bridges the gap between technology and customers... ",
+      "Connect front-end applications with backend services to fetch, display, and manage real-time data smoothly.",
   },
+  {
+    name: "Bug Fixing & Issue Resolution",
+    description:
+      "Identify, troubleshoot, and fix front-end issues to improve performance, functionality, and user experience.",
+  },
+  {
+    name: "Customer Support & Feedback Handling",
+    description:
+"Provide technical front-end support for users and clients, addressing UI-related issues and implementing feedback-driven updates."  },
 ];
 const Service = () => {
   const variants = {
@@ -43,7 +52,7 @@ const Service = () => {
               My Services . . .
             </h2>
             <h3 className="text-[1.7rem] mb-16 max-w-[355px]">
-              I'm a Freelancer Front-End Developer with Junior Experience Level
+              I'm a Freelancer Front-End Developer with intermediet Experience Level
             </h3>
             <a href="#contact" className="all-btn flex  justify-center">
               {" "}

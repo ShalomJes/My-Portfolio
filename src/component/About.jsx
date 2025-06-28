@@ -13,8 +13,6 @@ const About = () => {
     show: { opacity: 1, y: 0, transition: { duration: 2 } }, // Increase duration to slow down
   };
   return (
-
-    
     <section className="mx-auto" id="about" ref={Ref}>
       <div className="container relative md:pt-10 lg:mt-20 lg:pt-1 mx-auto ">
         <div className="md:flex  gap-28">
@@ -37,27 +35,26 @@ const About = () => {
                   About Me.
                 </h1>
                 <h3 className="text-[1.7rem] font-semibold mb-4 sec-font">
-                  I'm a Front-End Developer with Junior Experience ,
+                  I'm a Front-End Developer with 2 years Experience,
                 </h3>
                 <p className=" mb-6 sec-font text-[18px] ">
-                  As an IT professional, I specialize in frontend web
-                  development with expertise in React.js. with additional
-                  customer service, I excel in problem-solving and delivering
-                  exceptional service. Proficient in HTML, CSS, and
-                  JavaScript,also familiarity with TypeScript and C# I transform
-                  concepts into responsive web applications. Additionally, I'm
-                  beginning to venture into web design, eager to combine my
-                  technical expertise with creative design principles to create
-                  engaging and visually appealing websites. Known for my
-                  attention to detail and adaptability.
+                  I’m an IT graduate with over two years of hands-on experience
+                  in front-end web development. I specialize in creating clean,
+                  responsive, functionaland user-friendly web interfaces using
+                  modern tools like React.js. I’m skilled in working with
+                  JavaScript, Redux, and TailwindCSS(e.g.Chakra UI, ShadCn UI),
+                  and enjoy building smooth, seamless user experiences. I’m
+                  passionate about writing clean, reusable code, improving
+                  performance, and keeping up with the latest front-end
+                  technologies. I’m excited about the opportunity to bring these
+                  skills to any projects and help create smart, effective
+                  digital solutions.
                 </p>
               </div>
               <div className="flex i gap-x-6 lg:gap-x-10 h-font mb-7">
                 <div>
                   <div className="text-[40px] font-semibold text-gradient mb-2">
-                    {inView ? (
-                      <CountUP start={10} end={1} duration={3} />
-                    ) : null}
+                    {inView ? <CountUP start={0} end={2} duration={3} /> : null}
                     +
                   </div>
                   <div className="tracking-[2px]">
